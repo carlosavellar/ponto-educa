@@ -1,0 +1,270 @@
+body {
+  background-color: #FFF;
+}
+
+.ui.grid { margin: 0 !important; }
+.ui.grid+.grid {
+    margin-top: 0 !important;
+}
+img { height: auto; }
+#top-menu {
+	background-color: #f15a28;
+	border: 0px;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#top-menu .item {
+	font-size: 0.85rem;
+}
+
+#logoheader {
+	background: #efefef;
+}
+
+#logoheader .searchbox {
+	padding-top: .8em;
+}
+
+.top-login { background: no-repeat url(img/bg-top.jpg) center center; background-size: cover; background-position-x:0.1rem;   }
+.top-login h1 { text-transform: uppercase; color: #fff; font-size: 3.2rem; margin-top: 7rem;  }
+.top-login form { margin-bottom: 7rem;  border-radius: 10px; border: 1px solid #dbd8d6; padding: 15px; background: url(img/bg-form-login.png); width: 20rem !important; }
+.top-login form input { background: transparent !important; color: #fff !important; border-bottom: 1px solid #fff !important; padding-left: 0 !important; }
+.top-login label { color: #fff; vertical-align: top !important; margin-right: 10px; margin-top: 6px;  }
+.top-login button.entrar { background-color: transparent !important; padding: 1px; border-radius: 0 !important; border: 1px solid #fff; width: auto !important; padding: 5px 10px; float: right; }
+
+.top-login legend { color: #f05a22; font-size: 1.255em; font-weight: bold; }
+.top {  background-image:  url(img/bg-top.jpg);   }
+
+.midia { background: #cecfd0; padding: 3rem auto !important; }
+.midia .six .column:nth-child(1) { border-right: 1px solid #1a4a6c; } 
+.midia .six .column {vertical-align: middle !important; text-align: center !important; } 
+.midia h2 { color: #1a4a6c !important; }
+.midia .sixteen { padding-top:3rem !important;  }
+.midia .six {/*  padding-bottom: 3rem !important; */ }
+.midia a { display: block;
+        filter: alpha(opacity=50);
+        opacity: 1;
+        -webkit-transition: opacity .20s ease-in-out;
+        -moz-transition: opacity .20s ease-in-out;
+        -ms-transition: opacity .20s ease-in-out;
+        -o-transition: opacity .20s ease-in-out;
+        transition: opacity .20s ease-in-out;
+}
+.midia a:hover { opacity: 0.6;
+ }
+
+button { background-color: #f05a22 !important; font-size: 1.23rem !important; color: #fff !important; border-radius: .6857rem !important; vertical-align: bottom !important; padding-top: 0.5em !important; padding-bottom: 0.5em !important; width: 80%; }
+/* Topo */
+
+.pontos,
+.pontos .orange-edu { background: #f05a22 !important; }
+.pontos .bnt-gpontos { font-size: 1.30rem !important; color: #fff; }
+
+.pontos .ui.grid > .row { padding: 0.2rem 0 !important; }
+h2 { font-size: 2.10rem; }
+h3 { font-size: 1.50rem; }
+h4 { font-size: 1.40rem; }
+h2, h3, h4, h5, p { color: #103859 !important;  }
+
+.educam { background: #e6e7e8; }
+.educam .logos .column:nth-child(-n+7) { margin-bottom: 1rem; }
+.educam  h2   { margin-bottom: 0 !important; padding-bottom: 0 !important;}
+svg { width: 100%; height: auto;  }
+p { text-align: justify; }
+
+.cadastrese p { font-size: 1.20rem !important; padding: inherit 0.4rem !important; }
+.cadastrese button { background-color: #f05a22 !important; font-size: 1.23rem !important; color: #fff !important; border-radius: .6857rem !important; vertical-align: bottom !important; padding-top: 0.5em !important; padding-bottom: 0.5em !important; width: 100%; }
+.button { text-transform: uppercase !important; font-weight: normal !important;}
+.cadastrese .column { height: 100% !important;  }
+.cadastrese .ico-acumule { width: 100% !important; }
+.cadastrese h2 { margin: 2.5rem auto !important; }
+.cadastrese .column > .column { vertical-align: baseline !important; }
+/* Pague */
+.pague h2 { font-size: 2.70rem !important; }
+.pague { background: url(img/bg-pague.jpg) center center no-repeat; border-top: 0.5rem solid #103859; border-bottom: 0.5rem solid #103859;} 
+.pague p {  font-size: 1.5rem;  }
+.paguee { margin: 6rem auto;  }
+
+.pague .ico-pague { width: 100%; }
+
+.simular { padding-bottom: 2.5rem; }
+
+/* endPague */
+
+
+.diversas button { width: 50%; }
+.diversas h4 { margin-top: 0.2rem !important;  padding-top: 0.2rem !important; }
+
+.diversas .dive { width: 50%; }
+.diversas h2 { margin: 2.5rem auto !important; }
+
+
+
+.conheca { background: url(img/line-conheca.png) center center; }
+
+.ico-conhecan { width: 100% !important; text-align: center; background: #e6e7e8; padding: 1rem 0 1rem 0; }
+
+
+.busca .column:nth-child(2) { background: url(img/bg-busca.png) no-repeat center bottom ; }
+
+
+.busca { background:url(img/bg-busca-ico.png) no-repeat center center #fdeee8; background-size: contain;  }
+
+
+.busca button {vertical-align: baseline !important; vertical-align: bottom !important; } 
+.busca .six { padding: 14rem 0 4em 0 !important; }
+.busca .five:nth-child(1) h4{ text-align: left; font-size: 2.1rem; vertical-align: middle; font-weight: 800; }
+.busca .five:nth-child(3) h4{ text-align: right; font-size: 2.1rem; vertical-align: middle; font-weight: 800; }
+.busca .column {vertical-align: middle !important; }  
+#searchield { background-color: yellow !important; }
+.busca .ui.input input { background: #f05a22 !important; }
+
+.instituicoes h2 { font-size: 2.4rem !important; }
+.instituicoes, .ico-conhecam-orange { background: #f05a22 !important;  }
+.instituicoes .logos .column { padding-bottom: 1rem !important; }
+.ico-conhecam-orange{  background: url(img/line-ico-conhecam-orange.svg) no-repeat center top !important; background-size: contain;  height: 4rem; }
+.bg-instituicoes {  background:#f05a22 url(img/bg-instituicoes.svg) no-repeat center center !important; background-size:contain;  }
+.bg-instituicoes h2 { color: #fff !important;  }
+
+.vamos button { font-size: 1rem !important;  } 
+.vamos h2 {font-size:  2rem !important; text-transform: uppercase; }
+.vamos img.big-pin-point { width: 300px !important; }
+.vamos { background:#fafafa url(img/bg-vamos.png) no-repeat center 9rem; padding-top: 3rem;  }
+.tit-depoimentos hr  { border: 0.2px solid #103859; margin-top: 3rem;  }
+.vamos .ui.items { margin: 0; }
+.vamos .depoimento { font-size:1.10rem; }
+
+
+.name { text-align: center; width: 100% !important; }
+.tit-depoimentos h2 { font-size:  1.8em !important;   }
+.tit-depoimentos .hr { background: url(img/bg-tit-depoimentos.png) -10px 10px no-repeat; background-position-y: 45px !important; background-position-x: -60px !important; height: 5rem; }
+
+
+
+/* *********** **** Abaixo códigos estão codigos relativos apenas a View Port ***** ************ */
+
+/* Responsive CSS Styles Table of Contents */
+
+
+
+
+@media only screen and (min-width: 1170px){
+h2 { font-size: 2.10rem !important; }
+.vamos h2 {font-size:  2.15rem !important; text-transform: uppercase; }
+.vamos p.first { font-size: 1.4rem; }
+.tit-depoimentos h2 { font-size:  1.8em !important;   }
+.top-login form { margin-right: 14rem; }
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+.cadastrese button { font-size: 1rem !important; color: #fff; }
+.vamos p.first { font-size: 1.4rem; }
+.tit-depoimentos h2 { font-size:  1.8em !important;   }
+
+.top-login h1 { text-transform: uppercase; color: #fff; font-size: 3rem; margin-top: 7rem;  }
+.top-login form { margin-bottom: 2rem !important;   }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+.busca { background:url(img/bg-busca-ico.png) 300em no-repeat center center #fdeee8 !important; background-size: contain;  }
+.top-login { background: no-repeat url(img/bg-top.jpg) -3rem 3rem !important; background-size: cover !important; background-position-x:-6rem; }
+.top-login h1 { text-transform: uppercase; color: #fff; font-size: 2.7rem !important; margin-top: 2rem !important;  }
+.top-login form { margin-bottom: 2rem !important;  border-radius: 10px; border: 1px solid #dbd8d6; padding: 15px; background: url(img/bg-form-login.png); width: 20rem !important; }
+.paguee { margin: 4rem auto;    }
+.pague h2 { font-size: 2.550rem !important; }
+.pague { background-size: cover; }
+.cadastrese button { font-size: 0.9rem !important; color: #fff; }
+.conheca { background: url(img/line-conheca-mobile.png) center center; }
+.busca { background-image: none; background-color: #fdeee8;   }
+.vamos p.first { font-size: 1.4rem; }
+.tit-depoimentos h2 { font-size:  1.7em !important; }
+.midia img { width: 80% !important; }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+.midia img { width: 80% !important; }
+.bg-instituicoes {
+    background: #f05a22  transparent no-repeat center center !important;
+    background-size: contain;
+}
+.top-login { background: #4a3d37 no-repeat url(img/bg-top-mobile.jpg) center top  !important; background-size: 120%!important; background-position-x:-13rem; }
+.top-login h1 { text-transform: uppercase; color: #fff; font-size: 1.5rem !important; margin-top: 12rem !important;  }
+.top-login form {  margin-bottom: 0 !important;   }
+
+
+.top-login form { margin-bottom: 0 !important;  border-radius: 10px; border: 1px solid #dbd8d6; padding: 15px; background: url(img/bg-form-login.png); width: 100% !important; }
+
+.br { display: none !important;  }
+
+.pague  { font-size: 2rem !important; }
+.pague { background: url(img/bg-pague.jpg) 40% center no-repeat; background-size: 610% !important;}
+.diversas button { width: 100%; font-size: 1.05rem !important; }
+.logos-mobile > .logos-mobile {float: left !important; width: 100% !important; }
+.logos-mobile > .logos-mobile img {width: 100%;  } 
+.ico-conhecan { display: none;  }
+.busca .column:nth-child(2) { background:none; }
+.busca { background-image: none; background-size: contain;  }
+.busca h4{ font-size: 1.5rem !important; font-weight:  normal !important; }
+.busca .column { padding-top: 4rem; }
+hr { display: none; }
+.tit-depoimentos .image img,
+.tit-depoimentos .image { text-align: center !important;  }
+/* .tit-depoimentos .ui.items>.item>.image, .tit-depoimentos .ui.items>.item>.image>img { width: none !important!; } */
+.big-pin-point { display: none !important; }
+.column-big-pin-point { padding: 0 !important; margin: 0 !important; }
+.vamos { padding-top: 0.1rem;}
+.vamos button { width: 100%; font-size: 1.05em !important; }
+.vamos h2.first { font-size: 1.4rem !important; text-align: left; padding-left: 70px;  background: url(img/ico-pin-point-p.png) no-repeat left center !important; height: 5rem; padding-top: 1.2rem; margin-top: 0 !important;}
+
+.vamos p.first { padding-bottom:  }
+.tit-depoimentos h2 { text-align: left !important;   }
+.button-bg h2 { text-align: center !important; font-size:  1.7em !important;  }
+.instituicoes .mobile img,
+.educam .mobile img { width: 30% !important; }
+.ico-conhecam-orange { display: none; }
+}
+.ico-educam-blue{ background: #e6e7e8 url(img/line-ico-conhecam.svg) center center no-repeat; padding: 3rem; }
+
+	
+@media only screen and (min-width: 480px) and (max-width: 639px){	
+.bg-instituicoes {
+    background: #f05a22  transparent no-repeat center center !important;
+    background-size: contain; }
+
+.top-login { background: no-repeat url(img/bg-top.jpg) center 3rem; background-size: cover !important; background-position-x:-7rem; }
+.top-login h1 { text-transform: uppercase; color: #fff; font-size: 3rem; margin-top: 2.4rem; }
+.top-login form { { margin-bottom: 2rem !important;   }
+.diversas .dive { width: 30px !important;  }
+.midia h2 { font-size: 2rem !important; }
+h2 { font-size: 1rem; ;}
+.pague h2 { font-size: 1.5rem !important; }
+}
+
+@media only screen and (max-width: 479px){
+.educam .mobile img { width: 29% !important; }
+	
+}
+
+@media only screen and (max-width: 320px){
+.educam .mobile img { width: 29% !important; border: 2px solid red; }
+	
+}
+
+@media only screen and (max-width: 767px){
+	.paguee { margin: 4rem auto;
+}	
+
+@media only screen and (max-width: 999px){
+
+}
+
+
+
+
